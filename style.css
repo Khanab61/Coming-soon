@@ -1,0 +1,108 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body
+{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container
+{
+    border: 1px solid gray;
+    width: 50%;
+    background-color: #fff8f9;
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.left
+{
+    width: 50%;
+    position: relative;
+    text-align: center;
+}
+.left>section
+{
+    height: 30%;
+    width: 100%;
+}
+.right
+{
+    height: 100%;
+    width: 50%;
+}
+.right>img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.left-first
+{
+    font-size: 2vw;
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+}
+.left-first1
+{
+}
+.left-second
+{
+    font-weight: bolder;
+    font-size: 3vw;
+    letter-spacing: 0.5ch;
+}
+.left-second>p:nth-child(1)
+{
+    color: #bb9193;
+}
+.btn
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    margin-bottom: 10%;
+    height: max-content;
+}
+.email
+{
+    display: flex;
+    height: 20%;
+    position: relative;
+    border-radius: 60rem;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    width: fit-content;
+    padding: 5%;
+}
+.email>span>input
+{
+    font-size: 1vw;
+    outline: none;
+    border: none;
+}
+.email>i
+{
+    position:absolute;
+    right: 0;
+    border-right: none;
+    height: 100%;
+    width: 25%;
+    background-color: #ef9796;
+    color: white;
+font-size: 2vw;
+border: 1px solid gray;
+border-radius: 60rem;
+}
